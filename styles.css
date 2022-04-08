@@ -14,7 +14,6 @@ html {
 
 }
 .about-section{
-    display: flex;
 }
 .products-section{
 
@@ -48,10 +47,13 @@ html {
     height: auto;
     margin: auto;
 }
-
 .vase-dame {
-
+    max-width: 397px;
+    height: auto;
 }
 .cylinder-unglazed {
+    max-width: 600.87px;
+    height: auto;
+    transform: scaleX(-1);
 
 }
