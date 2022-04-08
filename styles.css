@@ -10,6 +10,18 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+.home-section{
+
+}
+.about-section{
+    display: flex;
+}
+.products-section{
+
+}
+.contact-section{
+
+}
 
 .nav {
     display: flex;
@@ -30,5 +42,16 @@ html {
 }
 .solid-border {
     border-top: 3px solid #555;
-    
+}
+.hand-pottery {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.vase-dame {
+
+}
+.cylinder-unglazed {
+
 }
