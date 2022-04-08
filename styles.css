@@ -14,13 +14,17 @@ html {
 .nav {
     display: flex;
     list-style-type: none;
-
     padding-left: 45px;
 }
-.logo-title{
-    display: flex;
+.logo-title {
     justify-content: center
 }
-.nav-item{
-
+.nav-item {
+    list-style-type: none;
+    display: flex;
+}
+.search {
+    background-color: #555;
+    height: 27px;
+    width: 292px;
 }
