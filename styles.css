@@ -28,3 +28,7 @@ html {
     height: 27px;
     width: 292px;
 }
+.solid-border {
+    border-top: 3px solid #555;
+    
+}
