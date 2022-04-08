@@ -14,8 +14,12 @@ html {
 .nav {
     display: flex;
     list-style-type: none;
-    justify-content: space-between;
 
+    padding-left: 45px;
+}
+.logo-title{
+    display: flex;
+    justify-content: center
 }
 .nav-item{
 
