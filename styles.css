@@ -10,3 +10,13 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+.nav-item{
+
+}
