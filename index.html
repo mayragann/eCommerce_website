@@ -41,7 +41,7 @@
         </section>
         <section class="about-section" id="about">
             <p>About Section</p>
-            <div class="about-section-grid">
+            <!-- <div class="about-section-grid">
                 <p class="first-about-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi deleniti beatae doloribus saepe ea adipisci, officia dolores ipsam cupiditate molestiae quia, temporibus perspiciatis! Et debitis magnam at vel ratione velit?</p>
                 <div class="left-picture">
                 <img class ="left-picture" src="./assets/Vase_Dame_2048x2048.jpg" alt="description">
@@ -49,12 +49,16 @@
                 <img class ="right-picture" src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="description">
             
 			    </div>
-            </div>
+            </div> -->
 
         </section>
         <section class="products-list" id="products">
             <h1>Products Section</h1>
+            <div>
+                <p class="solid-border-smaller"></p>
+            </div>
                 <div class="product-grid-container">
+
                     <div class="card">
                         <image class="card__image--img" src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Mundo Bowl">
                         <div class="card__title">MUNDO BOWLS</div><div class="card__title-price">$48.00</div>
@@ -191,16 +195,21 @@
 
         </section>
 		<section class="contacts-section" id="contact">
-            <p>Contact Section</p>
-            <div>
-				<div class="">
-					<div class="">
-						<img class ="" src="" alt="">
-					<div class=""></div>
-				</div>
-			</div>
+            <h1>Contact Section</h1>
+            <div class="container">
+
+                <label for="fname">EMAIL</label>
+                <input type="text" >
+            
+                <label for="subject">MESSAGE</label>
+                <textarea id="subject" name="subject" placeholder="" style="height:205px"></textarea>
+            
+                <input type="submit" value="SEND">
+              </form>
+            </div>
+
         </section>
     </main>
-    <footer></footer>
+    <footer class="footer"></footer>
 </body>
 </html>
