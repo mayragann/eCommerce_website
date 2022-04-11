@@ -25,9 +25,8 @@ html {
 .product-grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
+    gap: 205px;
+    justify-content: center;
 }
 
 
@@ -38,6 +37,7 @@ html {
     text-align: left;
     max-height: 692px;
     max-width: 398px;
+    font-family: segoe ui;
 
 
 
