@@ -9,23 +9,26 @@
 </head>
 <body>
     <header>
-        <nav class="nav">
-            <ul class="nav-item">
-                <li class="nav-item"><a href="#home">HOME</a></li>
-                <li class="nav-item"><a href="#products">PRODUCTS</a></li>
-                <li class="nav-item"><a href="#about">ABOUT</a></li>
-                <li class="nav-item"><a href="#contact">CONTACT</a></li>
-            </ul>
-            <p class="logo-title">CARA</p>
-            <img src="./assets/icons8-pottery-96.png" alt="pottery log">
-            <p class="logo-title">CARA</p> 
-            <search-box class="search"></search-box>
-            <cart-label>cart</cart-label>
-        </nav>
-        <div>
-            <p class="solid-border"></p>
-        </div>
-        
+        <div class="nav-container">
+            <div class="nav-container-list">    
+                <nav class="nav">
+                    <ul class="nav-item">
+                        <li class="nav-item"><a href="#home">HOME</a></li>
+                        <li class="nav-item"><a href="#products">PRODUCTS</a></li>
+                        <li class="nav-item"><a href="#about">ABOUT</a></li>
+                        <li class="nav-item"><a href="#contact">CONTACT</a></li>
+                    </ul>
+                    <h4>CARA</h4>
+                    <image class="header-container__image--img" src="./assets/icons8-pottery-96.png" alt="CENTER LOGO"></image>
+                    <h4>CARA</h4>
+                    <search-box class="search"></search-box>
+                    <cart-label>CART(0)</cart-label>
+                </nav>
+            </div>
+            <div>
+                <p class="solid-border"></p>
+            </div>
+        </div>  
 
 
     </header>
@@ -33,15 +36,16 @@
         <section class="home-section" id="home">
             <div>
 				<div class="hand-pottery">
-					<div class="hand-pottery__image">
-						<img class ="earl-wilcox" src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="hand making pottery">
-					<div class="hand-pottery__text"></div>
+						<img class ="hand-pottery__image--img" src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="hand making pottery">
 				</div>
 			</div>
         </section>
         <section class="about-section" id="about">
-            <p>ABOUT SECTION</p>
-            <h1>About Us</h1>
+            <h1>ABOUT SECTION</h1>
+             <div>
+                <p class="solid-border-smaller"></p>
+            </div>
+
             <div class="about-grid-container">
                 <div class="about-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincideunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit amet commodo.</div>
                 <div class="about-3"> Nulla porttitor massa id neque aliquam vestibulum morbi. Facilisi nullam vehicula ipsum a arcu cursus vitae congue. Nam libero justo laoreet sit amet cursus sit amett dictum. Tristique magna sit amet purus gravida quis. Velit euismod in pellentesque massa placerat. In ante metus dictum at tempor commodo. Libero nunc consequat interdum varius sit amet mattis. Egestas sed sed risus pretium quam vulputate dignissim. Diam phasellus vestibulum lorem sed risus. Cursus sit amet dictum sit amet justo donec enim.</div>
@@ -221,7 +225,7 @@
             <h2>CARA</h2>
             <image class="footer-container-logo__image--img" src="./assets/icons8-pottery-96 (1).png" alt="CENTER LOGO"></image>
             <h2>CARA</h2>
-                <div class="footer-logos-container">   
+                <div class="footer-logos-container-right">   
                     <image class="footer-container__image--img" src="./assets/icons8-twitter-96.png" alt="TWITTER"></image>
                     <image class="footer-container__image--img" src="./assets/icons8-instagram-96.png" alt="INSTAGRAM"></image>
                     <p>Amet tellus cras adipiscing enim eu turpis.</p>

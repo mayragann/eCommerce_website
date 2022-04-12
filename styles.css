@@ -13,8 +13,8 @@ h1 {
     font-size: 45px;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 500px;
+
     font-weight: semilight;
     font-family: segoe ui;
   }
@@ -24,8 +24,6 @@ h2{
     font-size: 40px;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
     font-weight: semilight;
     font-family: segoe ui;
     
@@ -35,8 +33,7 @@ h3 {
     font-size: 20px;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
+
     font-weight: semilight;
     font-family: segoe ui;
   }
@@ -45,8 +42,7 @@ h3 {
     font-size: 20px;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
+
     font-weight: semilight;
     font-family: segoe ui;
   }
@@ -64,14 +60,10 @@ body {
     margin-bottom: 200px;
   }
 
-.contact-section{
-    padding:10px;
-    margin-bottom: 115px;
-    margin-top: 133px;
-}
+
  
 .home-section{
-    display: grid;
+    display: flex;
     gap: 205px;
     justify-content: center;
 }
@@ -105,9 +97,7 @@ body {
     max-width: auto;
 }
 .about-section{
-    display: grid;
-    justify-content: center;
-    gap: 205px;
+
 }
 .about-grid-container{
     display: grid;
@@ -203,12 +193,43 @@ body {
     width: 276px;
     margin-bottom: 27px;
 }
+li {
+    padding-left:50px;
+    margin-left:100px;
+}
+ul {
+    display: block;
+    font-size: 20px;
 
-
+    font-weight: semilight;
+    font-family: segoe ui;
+}
+.header-container__image--img {
+    width: 40px;
+    height: 40px;
+}
 .nav {
     display: flex;
     list-style-type: none;
     padding-left: 45px;
+}
+.nav-container{ 
+    margin-left: auto;
+    width: 65%;
+    margin-right: auto;
+    padding: 20px;
+    font-family: segoe ui;}
+
+.nav-container-list{
+    display: inline;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 44px;
+    justify-content: center;
+    padding-top: 11px;
+    padding-bottom: 44px;
+
 }
 .logo-title {
     justify-content: center
@@ -218,8 +239,9 @@ body {
     display: flex;
 }
 .search {
-    background-color: #555;
-
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border-style: solid;
     height: 27px;
     width: 292px;
 }
@@ -231,14 +253,28 @@ body {
 .solid-border-smaller {
     border-top: 5px solid black;
     width: 940px;
+    margin-left: 500px;
 
 }
+.contact-section{
+    padding:10px;
+    margin-bottom: 115px;
+    margin-top: 133px;
+}
 
-
-.hand-pottery {
+.hand-pottery__image--img {
     max-width: 100%;
     height: auto;
     margin: auto;
+}
+.hand-pottery__image--img::after{
+    display: block;
+    position: relative;
+    background-image: radial-gradient(rba(255,255,255,0) 0, #fff 100%);
+    margin-top: -150px;
+    height: 150px;
+    width:100%;
+    content:'';
 }
 input[type=text], select, textarea {
     width: 100%;
@@ -280,7 +316,8 @@ input[type=submit]:hover {
 .footer-container-logo__image--img {
     width: 96px;
     height: 96px;
-}  
+}
+
 .footer h2{
     color:black;
 }
@@ -325,6 +362,14 @@ input[type=submit]:hover {
     padding-top: 10px;
     padding-bottom: 44px;
     justify-content: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    }
+.footer-logos-container-right {
+    display: inline;
+    padding-top: 10px;
+    padding-bottom: 44px;
+    justify-content: right;
     padding-right: 100px;
     padding-left: 100px;
     }
